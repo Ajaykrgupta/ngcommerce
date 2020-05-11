@@ -11,6 +11,13 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { FormsModule } from '@angular/forms';
+import { OddComponent } from './odd/odd.component';
+import { BasicHighlightDirective } from './directive/basic-highlight.directive';
+import { BetterHighlightDirective } from './directive/better-highlight.directive';
+import { UnlessDirective } from './directive/unless.directive';
+import { DropdownDirective } from './directive/dropdown.directive';
+import { AccountComponent } from './account/account.component';
+import { NewAccountComponent } from './new-account/new-account.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { FormsModule } from '@angular/forms';
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    CockpitComponent
+    CockpitComponent,
+    OddComponent,
+    BasicHighlightDirective,
+    BetterHighlightDirective,
+    UnlessDirective,
+    DropdownDirective,
+    AccountComponent,
+    NewAccountComponent
     
   ],
   imports: [
